@@ -50,10 +50,6 @@ body {
 }
 
 /* Home */
-.offering {
-  justify-content: center;
-
-}
 .offering-container {
   background-color: white;
   margin: 25px;
@@ -62,6 +58,12 @@ body {
   text-align: center;
 
 }
+
+.offering {
+  justify-content: center;
+
+}
+
 .offering {
   border-radius: 12px;
   display: flex;
@@ -85,9 +87,7 @@ body {
   text-align: center;
   margin: 15px;
 }
-.offering-text {
 
-}
 .button {
   background-color: #00138C;
   width: 202px;
@@ -248,13 +248,52 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  img {
+    max-width: 95%;
+
+
+  }
+
+.header-text p {
+  font-size: 1.3em;
+}
+
+.class-grid-item {
+  max-width: 95%;
+}
+.class-grid-item img{
+  max-width: 95%;
+  margin: 2.5%;
+}
+
+  .offering-image {
+    width: 85%;
+    margin: 5%;
+
+  }
+  .offering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .offering-text {
+    justify-content: center;
+
+  }
+  .offering-container {
+    justify-content: center;
+  }
+
   .subject-container {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     margin: 30px;
     border-radius: 12px;
+
   }
+
   .sidebar {
 
   }
