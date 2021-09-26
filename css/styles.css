@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1, h2 {
+text-align: center;
+margin: 10px;
+color: lightgrey;
+
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+  color: #6c6c6c;
+  margin: 15px;
+}
+img {
+  width: 290px;
+  height: 290px;
+  margin: 10px;
+  border-radius: 12px;
+}
+footer {
+  background-color: #00138C;
+  min-height: 100px;
+  text-align: center;
+}
+footer p {
+  font-size: 1.5em;
+  margin: 10px;
+  color: white;
+
+}
+
+body {
+  background-color: #008DE3 !important;
+}
+
+.btn {
+  color: white;
+  border-color: white;
+}
+.btn:hover, .btn:active {
+  background-color: white;
+  color: #00138C;
+  shadow: none;
+  border-color: white;
+}
+
+/* Home */
+.offering {
+  justify-content: center;
+
+}
+.offering-container {
+  background-color: white;
+  margin: 25px;
+  border-radius: 12px;
+  justify-content: center;
+  text-align: center;
+
+}
+.offering {
+  border-radius: 12px;
+  display: flex;
+
+}
+
+.offering-container h4 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.offering-container h5 {
+  font-size: 23px;
+  font-weight: bold;
+  max-width: 70%;
+  text-align: center;
+  margin: 15px;
+}
+.offering-container p {
+  max-width: 70%;
+  text-align: center;
+  margin: 15px;
+}
+.offering-text {
+
+}
+.button {
+  background-color: #00138C;
+  width: 202px;
+  height: 52px;
+  border-radius: 12px;
+  color: white;
+  border: 10px solid #00138C;
+  justify-content: center;
+
+}
+.button a {
+  color: white;
+}
+
+
+/*Learn*/
+.page-header-container {
+  border-radius: 12px;
+  text-align: center;
+  justify-content: center;
+  background-color: white; /*#3BB5FF;*/
+  margin: 15px;
+
+}
+.header-text p {
+  color: #6c6c6c;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 2em;
+}
+
+
+.navbar {
+  background-color: #00138C !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.nav-link {
+  color: white !important;
+}
+
+.department-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 12px;
+}
+.class-grid {
+  max-width: 1000;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.class-grid-item {
+  background-color: #3BB5FF;
+  justify-content: center;
+  margin: 5px;
+  width: 310px;
+  min-height: 310px;
+  border-radius: 12px;
+
+}
+
+/* Intro to Newtonian Mechanics */
+
+
+.subject-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 12px;
+}
+.subject-list {
+
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 12px;
+  border: 12px solid white;
+}
+
+.subject-row {
+
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 12px;
+}
+
+.subject-row p {
+  font-size: 1.3em;
+}
+
+/* Sidebar */
+
+.sidebar {
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 12px;
+  border: 12px solid white;
+}
+.sidebar-class-list {
+  margin-top: 10px;
+}
+
+/* Subject View */
+.subject-header-text {
+  background-color: #008DE3;
+}
+
+/* Problem View */
+.problem-header-text {
+  background-color: #008DE3;
+
+}
+
+.problem-container {
+  justify-content: center;
+
+}
+.problem-text-container {
+  font-size: 1.5em;
+}
+.problem-text-container, .problem-solution-video-link  {
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 12px;
+  border: 12px solid white;
+  text-align: center;
+}
+
+.problem-answer-list, .problem-hint-list {
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 12px;
+  border: 12px solid white;
+  font-size: 1.2em;
+}
+
+.problem-answer-list li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container .button {
+  justify-content: center;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 450px) {
+  .subject-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 12px;
+  }
+  .sidebar {
+
+  }
+}
+
+
+
+
+
+
+/*
+color dark = #008DE3
+color light = #3BB5FF
+*/
