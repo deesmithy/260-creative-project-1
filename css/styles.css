@@ -253,6 +253,9 @@ body {
 
 
   }
+  .button {
+    text-align: center;
+  }
 
 .header-text p {
   font-size: 1.3em;
@@ -279,11 +282,20 @@ body {
   }
   .offering-text {
     justify-content: center;
+    text-align: center;
+    padding-right: 10px;
 
   }
-  .offering-container {
-    justify-content: center;
+  .offering-text .button {
+    padding: 6px;
   }
+  .offering-container {
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+  }
+
 
   .subject-container {
     display: flex;
