@@ -5,12 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial -scale=1.0, maximum-scale=1.0" />
 
+  <title>UNI Education-Explore Colleges</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/css/styles.css">
-  <title>UNI</title>
 </head>
-
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -52,78 +51,55 @@
 
 
   <div class="page-header-container">
-    <div class="problem-header-text">
-      <h1>Practice problem in Physics</h1>
-
+    <div class="header-text">
+      <h1>Explore Colleges around the United States</h1>
+      <p>As an educational institution, we are interested in helping you connect with your dreams,
+        get a top quality education, and find your place in the world. Feel free to search the database of
+        colleges throughout the United States to get more information for yourself. </p>
     </div>
   </div>
 
 
+  <div class="search-container">
 
-    <div class="container">
-        <div class="problem-container">
+    <div class="search-bar-container">
+      <div class="search-fields-container">
+        <input placeholder="Search" id="college-search-field">
+        <select id="college-search-selector">
+          <option value="name">College Name</option>
+          <option value="city">City</option>
+          <option value="state">State</option>
+        </select>
+      </div>
 
-          <div class="problem-text-container">
-            <p>What is the average airspeed velocity of an unladened swallow?</p>
-          </div>
-
-          <ul class="problem-answer-list">
-            <li> <a href="#">A) An african or a European Swallow?</a> </li>
-            <li><a href="#">B) I don't know</a></li>
-            <li><a href="#">C) 200mph</a></li>
-            <li><a href="#">D) 0 when I cook it for dinner</a></li>
-            <li><a href="#">E) Waaaaaaa!</a></li>
-          </ul>
-
-
-
-          <ol class="problem-hint-list">
-            <p>Hints</p>
-            <li>This is from Monty Python and the Quest for the Holy Grail</li>
-            <li>Think about it pretty hard</li>
-            <li>"Get that corn out of my face" - Nacho Libre</li>
-          </ol>
-
-          <div class="problem-solution-video-link">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"target="_blank">Watch a video solution</a>
-          </div>
-
-          <a href="#">
-            <div class="button">
-              <h6> Submit </h6>
-            </div>
-          </a>
-
-        </div>
-
-
-
+      <button id="college-search-button">Search</button>
     </div>
 
 
+    <div id="search-result-container"><!--- This div will be filled by the javascript-->
+    </div>
+
+  </div>
 
 
 
 
 
+  <footer>
+    <p>Thank You for studying with Uni Education! We hope you will come back again.</p>
+    <p> My code can be found <a href="https://github.com/deesmithy/260-creative-project-1">here</a> </p>
+
+  </footer>
 
 
-
-
-
-
-
-    <footer>
-      <p>Thank You for studying with Uni Education! We hope you will come back again.</p>
-      <p> My code can be found <a href="https://github.com/deesmithy/260-creative-project-1">here</a> </p>
-
-    </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="/javascript/searching.js" type="text/javascript">
 
+  </script>
 </body>
 
 </html>

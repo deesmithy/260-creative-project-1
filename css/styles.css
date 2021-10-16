@@ -3,11 +3,11 @@
   border: 0;
   box-sizing: border-box;
 }
-h1, h2 {
-text-align: center;
-margin: 10px;
-color: lightgrey;
 
+h1, h2 {
+  text-align: center;
+  margin: 10px;
+  color: lightgrey;
 }
 
 h3 {
@@ -16,22 +16,24 @@ h3 {
   color: #6c6c6c;
   margin: 15px;
 }
+
 img {
   width: 290px;
   height: 290px;
   margin: 10px;
   border-radius: 12px;
 }
+
 footer {
   background-color: #00138C;
   min-height: 100px;
   text-align: center;
 }
+
 footer p {
   font-size: 1.5em;
   margin: 10px;
   color: white;
-
 }
 
 body {
@@ -42,6 +44,7 @@ body {
   color: white;
   border-color: white;
 }
+
 .btn:hover, .btn:active {
   background-color: white;
   color: #00138C;
@@ -56,18 +59,15 @@ body {
   border-radius: 12px;
   justify-content: center;
   text-align: center;
-
 }
 
 .offering {
   justify-content: center;
-
 }
 
 .offering {
   border-radius: 12px;
   display: flex;
-
 }
 
 .offering-container h4 {
@@ -75,6 +75,7 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 .offering-container h5 {
   font-size: 23px;
   font-weight: bold;
@@ -82,6 +83,7 @@ body {
   text-align: center;
   margin: 15px;
 }
+
 .offering-container p {
   max-width: 70%;
   text-align: center;
@@ -96,22 +98,22 @@ body {
   color: white;
   border: 10px solid #00138C;
   justify-content: center;
-
 }
+
 .button a {
   color: white;
 }
-
 
 /*Learn*/
 .page-header-container {
   border-radius: 12px;
   text-align: center;
   justify-content: center;
-  background-color: white; /*#3BB5FF;*/
+  background-color: white;
+  /*#3BB5FF;*/
   margin: 15px;
-
 }
+
 .header-text p {
   color: #6c6c6c;
   text-align: center;
@@ -120,13 +122,14 @@ body {
   font-size: 2em;
 }
 
-
 .navbar {
   background-color: #00138C !important;
 }
+
 .navbar-brand {
   color: white !important;
 }
+
 .nav-link {
   color: white !important;
 }
@@ -138,6 +141,7 @@ body {
   margin: 30px;
   border-radius: 12px;
 }
+
 .class-grid {
   max-width: 1000;
   display: flex;
@@ -154,20 +158,17 @@ body {
   width: 310px;
   min-height: 310px;
   border-radius: 12px;
-
 }
 
 /* Intro to Newtonian Mechanics */
-
-
 .subject-container {
   display: flex;
   justify-content: center;
   margin: 30px;
   border-radius: 12px;
 }
-.subject-list {
 
+.subject-list {
   justify-content: center;
   background-color: white;
   margin: 30px;
@@ -176,7 +177,6 @@ body {
 }
 
 .subject-row {
-
   justify-content: center;
   background-color: white;
   margin: 30px;
@@ -188,7 +188,6 @@ body {
 }
 
 /* Sidebar */
-
 .sidebar {
   justify-content: center;
   background-color: white;
@@ -196,6 +195,7 @@ body {
   border-radius: 12px;
   border: 12px solid white;
 }
+
 .sidebar-class-list {
   margin-top: 10px;
 }
@@ -208,17 +208,17 @@ body {
 /* Problem View */
 .problem-header-text {
   background-color: #008DE3;
-
 }
 
 .problem-container {
   justify-content: center;
-
 }
+
 .problem-text-container {
   font-size: 1.5em;
 }
-.problem-text-container, .problem-solution-video-link  {
+
+.problem-text-container, .problem-solution-video-link {
   justify-content: center;
   background-color: white;
   margin: 30px;
@@ -244,51 +244,112 @@ body {
 .container .button {
   justify-content: center;
   text-align: center;
+}
 
+/*Search Features*/
+.search-container {
+  justify-content: space-around;
+}
+
+#search-result-container {
+  justify-content: center;
+  background-color: #3BB5FF;
+  margin: auto;
+  padding: 10px;
+}
+
+#search-result-container a {
+  color: black;
+}
+
+.result-container {
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #3BB5FF;
+  border-radius: 12px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.result-container h6 {
+  text-align: center;
+}
+
+.info-box p {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid green;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.search-fields-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#college-search-field, #college-search-selector, #college-search-button {
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 450px) {
   img {
     max-width: 95%;
-
-
   }
+  .navbar-toggler {
+    background-color: white !important;
+    border-radius: 10px;
+  }
+
   .button {
     text-align: center;
   }
 
-.header-text p {
-  font-size: 1.3em;
-}
+  .header-text p {
+    font-size: 1.3em;
+  }
 
-.class-grid-item {
-  max-width: 95%;
-}
-.class-grid-item img{
-  max-width: 95%;
-  margin: 2.5%;
-}
+  .class-grid-item {
+    max-width: 95%;
+  }
+
+  .class-grid-item img {
+    max-width: 95%;
+    margin: 2.5%;
+  }
 
   .offering-image {
     width: 85%;
     margin: 5%;
-
   }
+
   .offering {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
+
   .offering-text {
     justify-content: center;
     text-align: center;
     padding-right: 10px;
-
   }
+
   .offering-text .button {
     padding: 6px;
   }
+
   .offering-container {
     display: inline-block;
     justify-content: center;
@@ -296,26 +357,22 @@ body {
     text-align: center;
   }
 
-
   .subject-container {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     margin: 30px;
     border-radius: 12px;
-
   }
 
-  .sidebar {
 
-  }
+
 }
 
+/*Small Screen mode*/
+/* .sidebar {
 
-
-
-
-
+  } */
 /*
 color dark = #008DE3
 color light = #3BB5FF
